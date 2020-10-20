@@ -17,7 +17,6 @@ body {
 p { 
   padding: 15px;
   margin: 0;
-  text-align: justify;
 }
 
 .container {
@@ -26,7 +25,7 @@ p {
   margin-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
-  padding: 15px;
+  padding: 15px; 
 }
 
 section {
