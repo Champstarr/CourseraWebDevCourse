@@ -7,9 +7,6 @@ h1 {
   text-align: center;
 }
 
-.row {
-  width: 100%;
-}
 
 body {
   background-color: #66ccff;
@@ -17,11 +14,10 @@ body {
 }
 
 
-
 p { 
   padding: 15px;
   margin: 0;
-  
+  text-align: justify;
 }
 
 .container {
@@ -38,14 +34,15 @@ section {
   overflow: auto;
   color: black;
   font-family: Helvetica;
-  height: 150px;
+  height: 100%;
   width: 100%;
   border: 2px solid black;
+  border-color: #ff3333 #3385ff #ffffff #ff3333;
   background-color: #e0e0eb;
 }
 
 #french {
- border-color: #ff3333 #3385ff #ffffff #ff3333;
+ border: 1px solid black;
  background-color: #ffcc99;
  text-align: center;
  width: 30%;
@@ -59,7 +56,7 @@ section {
 }
 
 #italian {
-  border-color: #ff3333 #3385ff #ffffff #ff3333;
+ border: 1px solid black;
  background-color: #ffcc99;
  text-align: center;
  width: 30%;
@@ -73,7 +70,7 @@ section {
 }
 
 #german {
-border-color: #ff3333 #3385ff #ffffff #ff3333;
+ border: 1px solid black;
  background-color: #ffcc99;
  text-align: center;
  width: 30%;
@@ -84,6 +81,10 @@ border-color: #ff3333 #3385ff #ffffff #ff3333;
  margin-top: 0;
  margin-bottom: 0;
  padding: 5px;
+}
+
+.row {
+  width: 100%;
 }
 
 
